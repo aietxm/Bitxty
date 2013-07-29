@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal" >
+ <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+   <TextView
+       android:id="@+id/type"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.16"
+       android:paddingLeft="10dp"
+       android:paddingTop="10dp"
+       android:textColor="#ff0000"
+       android:text="TextView"
+       android:textSize="16dp" />
+
+ <TextView
+     android:id="@+id/title"
+     android:layout_width="200dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentRight="true"
+     android:layout_toRightOf="@id/type"
+     android:layout_weight="0.08"
+     android:ellipsize="end"
+     android:paddingLeft="10dp"
+     android:paddingTop="10dp"
+     android:singleLine="true"
+     android:text="TextView"
+     android:textColor="#000"
+     android:textSize="20dp" />
+
+ <TextView
+     android:id="@+id/date"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.16"
+     android:paddingLeft="10dp"
+     android:paddingTop="10dp"
+     android:layout_below="@id/type"
+     android:text="TextView"
+     android:textColor="#000" />
+  <TextView
+      android:id="@+id/nickname"
+      android:layout_width="120dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/date"
+      android:layout_alignBottom="@+id/date"
+      android:layout_alignParentRight="true"
+      android:layout_weight="0.08"
+      android:gravity="center"
+      android:text="TextView"
+      android:textColor="#000" />
+   <TextView
+      android:id="@+id/name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/date"
+      android:layout_alignBottom="@+id/date"
+      android:layout_toLeftOf="@id/nickname"
+      android:text="发布者：" />
+
+</RelativeLayout>
+
+</LinearLayout>

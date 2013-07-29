@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/ksoap2-android-assembly-2.6.0-jar-with-dependencies-c6a8a40c106f183da58f80d11444b1ec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/ksoap2-android-assembly-2.6.0-jar-with-dependencies-f4fcd8580022ccd3edb40b1278ff56ea.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/activation-b6b75c9d34250ba8918fa7061ee35a9e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/additionnal-dd860918511c9c620fd1aa652715220b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/activation-1032b6072574550b9794b904c19bdc0c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/annotations-5032afa3997bf48ebcea559ed24c3e8d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/annotations-c24e91b4bb1b85087b7a2807784e8f6b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/additionnal-4fd312beb723050bc61f654dbf6d3616.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mail-d2d520a51a61650af8e6cd2ed222aa44.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mail-3c5eb6d48238756ff1ea29bdb4989e4c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

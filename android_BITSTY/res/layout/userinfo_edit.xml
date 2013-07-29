@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="27dp"
+            android:text="昵称："
+            android:textColor="#000" 
+            android:textSize="19sp"/>
+
+         <TextView
+             android:id="@+id/sex"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/nickname"
+             android:layout_below="@+id/nickname"
+             android:layout_marginTop="30dp"
+             android:text="性别："
+             android:textColor="#000" 
+             android:textSize="19sp"/>
+
+         <EditText
+             android:id="@+id/nickname1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/sex"
+             android:layout_toRightOf="@+id/nickname"
+             android:textColor="#000"
+             android:layout_marginRight="10dp"
+             android:textSize="19sp" 
+             android:layout_alignBaseline="@id/nickname"
+             android:singleLine="true"/>
+
+         <RadioGroup
+             android:id="@+id/sex1"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_below="@id/nickname1" 
+            android:layout_toRightOf="@id/sex"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男" 
+                android:textColor="@color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女" 
+                 android:textColor="@color/black"
+                 android:layout_marginLeft="20dp"/>
+        </RadioGroup>
+          <TextView
+              android:id="@+id/mail"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/sex"
+              android:layout_marginTop="30dp"
+              android:layout_toLeftOf="@+id/nickname1"
+              android:text="邮箱："
+              android:textColor="#000" 
+              android:textSize="19sp"/>
+
+          <EditText
+              android:id="@+id/mail1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@id/mail"
+              android:layout_alignBottom="@id/mail"
+              android:layout_alignLeft="@id/sex1"
+              android:layout_marginRight="10dp"
+              android:textColor="#000" 
+              android:textSize="19sp"
+               android:singleLine="true"/>
+          <TextView
+              android:id="@+id/major"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignLeft="@+id/sex"
+              android:layout_below="@+id/mail1"
+              android:layout_marginTop="30dp"
+              android:text="专业："
+              android:textColor="#000" 
+              android:textSize="19sp"/>
+
+          <EditText
+              android:id="@+id/major1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/major"
+              android:layout_alignBottom="@+id/major"
+              android:layout_toRightOf="@+id/major"
+              android:layout_marginRight="10dp"
+              android:textColor="#000"
+              android:textSize="19sp" 
+               android:singleLine="true"/>
+
+          <EditText
+              android:id="@+id/info1"
+              android:layout_width="match_parent"
+              android:layout_height="120dp"
+              android:layout_below="@id/info"
+              android:layout_marginTop="14dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="10dp"
+              android:textColor="#000"
+              android:textSize="19sp"
+              android:ems="4" />
+
+          <TextView
+              android:id="@+id/info"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/major"
+              android:layout_alignLeft="@+id/major"
+              android:layout_marginTop="20dp"
+              android:text="介绍："
+              android:textColor="#000" 
+              android:textSize="19sp"/>
+          
+          <Button 
+              android:id="@+id/edit_submit"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_below="@id/info1"
+              android:text="确认修改"
+              android:layout_marginLeft="120dp"
+              />
+
+    </RelativeLayout>
+
+</LinearLayout>

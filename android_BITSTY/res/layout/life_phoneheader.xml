@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:background="@drawable/phone_seach_border">
+
+	<LinearLayout android:gravity="center"
+		android:orientation="horizontal" android:paddingLeft="20.0dip"
+		android:paddingTop="10.0dip" android:paddingRight="20.0dip"
+		android:paddingBottom="10.0dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+			<EditText android:gravity="left" android:background="@drawable/phone_chax"
+		    	android:layout_weight="1" android:paddingLeft="20.0dip"
+		    	android:layout_gravity="bottom"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:hint="\u0020请输入本目录下人员名称" />
+		<Button android:id="@+id/seachbuttun" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@drawable/chaxun"
+			android:layout_weight="5" />
+	</LinearLayout>
+
+
+
+
+</LinearLayout>
+

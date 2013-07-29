@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" >
+
+       <ImageView
+           android:id="@+id/write"
+           android:layout_width="33dp"
+           android:layout_height="33dp"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:src="@drawable/club_write" />
+
+       <RelativeLayout
+           android:id="@+id/set"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true" >
+
+           <TextView
+               android:id="@+id/spinnerText"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+           </TextView>
+
+       </RelativeLayout>
+
+       <ImageView
+           android:id="@+id/write"
+           android:layout_width="33dp"
+           android:layout_height="33dp"
+           android:layout_alignParentTop="true"
+           android:layout_toRightOf="@+id/set"
+           android:src="@drawable/events" />
+
+       <Spinner
+           android:id="@+id/Spinner01"
+           android:layout_width="100dp"
+           android:layout_height="30dp"
+           android:layout_alignBottom="@+id/write"
+           android:layout_toRightOf="@+id/write"
+           android:background="@drawable/xiala"
+           android:paddingLeft="10dp" />
+
+   </RelativeLayout>
+
+     <com.club.DynamicListView
+         android:id="@+id/newsshowlist"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="#fff" 
+         android:cacheColorHint="#00000000"/>
+
+</LinearLayout>

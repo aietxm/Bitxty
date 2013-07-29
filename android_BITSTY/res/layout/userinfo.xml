@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="27dp"
+            android:text="昵称："
+            android:textColor="#000" 
+            android:textSize="19sp"/>
+
+         <TextView
+             android:id="@+id/sex"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/nickname"
+             android:layout_below="@+id/nickname"
+             android:layout_marginTop="20dp"
+             android:text="性别："
+             android:textColor="#000" 
+             android:textSize="19sp"/>
+
+         <TextView
+             android:id="@+id/nickname1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/sex"
+             android:layout_toRightOf="@+id/nickname"
+             android:textColor="#000"
+             android:textSize="19sp" />
+
+         <TextView
+             android:id="@+id/sex1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/nickname"
+             android:layout_marginTop="20dp"
+             android:layout_toRightOf="@+id/nickname"
+             android:textColor="#000" 
+             android:textSize="19sp"/>
+          <TextView
+              android:id="@+id/mail"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/sex"
+              android:layout_marginTop="16dp"
+              android:layout_toLeftOf="@+id/nickname1"
+              android:text="邮箱："
+              android:textColor="#000" 
+              android:textSize="19sp"/>
+
+          <TextView
+              android:id="@+id/mail1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/mail"
+              android:layout_alignBottom="@+id/mail"
+              android:layout_alignLeft="@+id/sex1"
+              android:textColor="#000" 
+              android:textSize="19sp"/>
+          <TextView
+              android:id="@+id/major"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignLeft="@+id/sex"
+              android:layout_below="@+id/mail1"
+              android:layout_marginTop="15dp"
+              android:text="专业："
+              android:textColor="#000" 
+              android:textSize="19sp"/>
+
+          <TextView
+              android:id="@+id/major1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/major"
+              android:layout_alignBottom="@+id/major"
+              android:layout_toRightOf="@+id/major"
+              android:textColor="#000"
+              android:textSize="19sp" />
+
+          <TextView
+              android:id="@+id/info1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/info"
+              android:layout_marginTop="14dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="#000"
+              android:textSize="19sp" />
+
+          <TextView
+              android:id="@+id/info"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/major"
+              android:layout_alignLeft="@+id/major"
+              android:layout_marginTop="14dp"
+              android:text="介绍："
+              android:textColor="#000" 
+              android:textSize="19sp"/>
+          
+          <Button 
+              android:id="@+id/editinfo"
+              android:layout_height="wrap_content"
+              android:layout_width="100dp"
+              android:layout_below="@id/info1"
+              android:text="修改信息"
+              android:layout_marginLeft="120dp"
+              android:layout_marginTop="20dp"
+              />
+           <Button 
+              android:id="@+id/editpass"
+              android:layout_height="wrap_content"
+              android:layout_width="100dp"
+              android:layout_below="@id/editinfo"
+              android:text="修改密码"
+              android:layout_marginLeft="120dp"
+              android:layout_marginTop="20dp"
+              />
+
+    </RelativeLayout>
+
+</LinearLayout>

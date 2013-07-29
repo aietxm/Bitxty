@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="android_BITSTY">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/additionnal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/activation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
